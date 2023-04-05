@@ -21,162 +21,82 @@
     
     <div class="container-fluid">
 
-        <!-- Sezione esercizio per casa -->
+        <!-- NESTED -->
         <section>
 
-            <h2>Esercizio per Casa</h2>
+            <h2>Nested</h2>
 
-            <div class="row-block">
-
-                <!-- 12x col or col-1 -->
-                <div class="row">
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                    <div class="col-1">1 col</div>
-                </div>
-                
-                <!-- 1 col-2 + 2 col -->
-                <div class="row">
-                    <div class="col-2">col</div>
-                    <div class="col">col</div>
-                    <div class="col">col</div>
-                </div>
-
-                <!-- 1 col or col-12 -->
-                <div class="row">
-                    <div class="col-12">12 col</div>
-                </div>
-
-                <!-- col-8 + col-2 + col-2 -->
-                <div class="row">
-                    <div class="col-8">8 col</div>
-                    <div class="col-2">2 col</div>
-                    <div class="col-2">2 col</div>
-                </div>
-
-                <!-- 1 + 2 + 2 + 6 + 1 -->
-                <div class="row">
-                    <div class="col-1">1 col</div>
-                    <div class="col-2">2 col</div>
-                    <div class="col-2">2 col</div>
-                    <div class="col-6">6 col</div>
-                    <div class="col-1">1 col</div>
-                </div>
-
-                <!-- 2 rows with nested rows -->
-                <div class="row">
-                    
-                    <!-- Nested: (2 + 2 + 8) -->
-                    <div class="col">
-                        <div class="row">
-                            <div class="col-2 nested-green">Nested 2 col</div>
-                            <div class="col-2 nested-green">Nested 2 col</div>
-                            <div class="col-8 nested-green">Nested 8 col</div>
-                        </div>                      
-                    </div>
-
-                    <!-- Nested: (6 + 6) -->
-                    <div class="col">
-                        <div class="row">
-                            <div class="col-6 nested-green">Nested 6</div>
-                            <div class="col-6 nested-green">Nested 6</div>
-                        </div>
+            <div class="row">
+                <div class="col-7">
+                    <div class="row">
+                        <div class="nested-green col"></div>
+                        <div class="nested-green col-6"></div>
+                        <div class="nested-green col"></div>
                     </div>
                 </div>
-
-            </div>
-
-            <div class="row-block">
-
-                <div class="row">
-                    <div class="col"></div>                   
+                <div class="col-5">
+                    <div class="row">
+                        <div class="nested-green col"></div>
+                        <div class="nested-green col"></div>
+                    </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-1"></div>
-                    <div class="col"></div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col"></div>
-                </div>
-
-                <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col"></div>
-                </div>
-
-                <div class="row">
-                    <div class="col-4"></div>
-                    <div class="col"></div>
-                </div>
-
-                <div class="row">
-                    <div class="col-5"></div>
-                    <div class="col"></div>
-                </div>
-
-                <div class="row">
-                    <div class="col-6"></div>
-                    <div class="col"></div>
-                </div>
-
             </div>
 
         </section>
 
-        <!-- sezione Offset -->
+        <!-- ALIGNMENT -->
         <section>
 
-            <h2>Offset</h2>
+            <h2>Alignment</h2>
 
             <div class="row-block">
 
+                <!-- Start -->
                 <div class="row">
-                    <col-1 class="col-1 col-offset-11"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-2 col-offset-10"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-3 col-offset-9"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-4 col-offset-8"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-5 col-offset-7"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-6 col-offset-6"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-7 col-offset-5"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-8 col-offset-4"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-9 col-offset-3"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-10 col-offset-2"></col-1>
-                </div>
-                <div class="row">
-                    <col-1 class="col-11 col-offset-1"></col-1>
+                    <col-1 class="col-6">start</col-1>
                 </div>
 
+                <!-- center -->
+                <div class="row">
+                    <col-1 class="col-6"></col-1>
+                </div>
+
+                <!-- end -->
+                <div class="row">
+                    <col-1 class="col-6"></col-1>
+                </div>
+
+                <!-- top -->
+                <div class="row">
+                    <col-1 class="col-6"></col-1>
+                </div>
+
+                <!-- middle -->
+                <div class="row">
+                    <col-1 class="col-6"></col-1>
+                </div>
+
+                <!-- bottom -->
+                <div class="row">
+                    <col-1 class="col-6"></col-1>
+                </div>
+                
             </div>
+        </section>
+
+        <!-- JUSTIFY CONTENT -->
+        <section>
+
+            <!-- Space around -->
+            <div>
+
+            </div>
+
+            <!-- Space between -->
+            <div>
+
+            </div>
+
         </section>
 
     </div>

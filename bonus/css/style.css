@@ -1,5 +1,9 @@
 /* general rules */
 
+section {
+    margin: 10px 0;
+}
+
 .row-block {
     margin: 10px 0 20px;
     color: #ffffff;
@@ -7,7 +11,7 @@
 
 [class*="col"] {
     background-color: #006cfa;
-    min-height: 35px;
+    min-height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;

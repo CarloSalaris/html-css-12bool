@@ -136,5 +136,44 @@
     margin-left: calc((100% / 12) * 11);
 }
 
+/* FLEX RULES */
+
+/* align */
+
+.col-align-start {
+    justify-content: flex-start;    
+}
+
+.col-align-center {
+    justify-content: center;    
+}
+
+.col-align-end {
+    justify-content: flex-end;    
+}
+
+.col-align-top {
+    align-items: flex-start;
+}
+
+.col-align-middle {
+    align-items: center;
+}
+
+.col-align-bottom {
+    align-items: flex-end;
+}
+
+/* justify */
+
+.col-space-around {
+    justify-content: space-around;
+}
+
+.col-space-between {
+    justify-content: space-between;
+}
+
+
 
 
