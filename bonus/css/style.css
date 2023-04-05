@@ -24,6 +24,10 @@ section {
     border: solid 1px #006cfa;
 }
 
+.doble-height {
+    height: 90px;
+}
+
 /* DEBUG */
 
 /* .row-block {

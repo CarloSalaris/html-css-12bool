@@ -140,37 +140,37 @@
 
 /* align */
 
-.col-align-start {
+.row-align-start {
     justify-content: flex-start;    
 }
 
-.col-align-center {
+.row-align-center {
     justify-content: center;    
 }
 
-.col-align-end {
+.row-align-end {
     justify-content: flex-end;    
 }
 
-.col-align-top {
+.row-align-top {
     align-items: flex-start;
 }
 
-.col-align-middle {
+.row-align-middle {
     align-items: center;
 }
 
-.col-align-bottom {
+.row-align-bottom {
     align-items: flex-end;
 }
 
 /* justify */
 
-.col-space-around {
+.row-space-around {
     justify-content: space-around;
 }
 
-.col-space-between {
+.row-space-between {
     justify-content: space-between;
 }
 
