@@ -1,0 +1,28 @@
+/* general rules */
+
+.row-block {
+    margin: 10px 0 20px;
+    color: #ffffff;
+}
+
+[class*="col"] {
+    background-color: #006cfa;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: solid 1px #ffffff;
+}
+
+.nested-green {
+    background-color: #00e165;
+    border: solid 1px #006cfa;
+}
+
+/* DEBUG */
+
+/* .row-block {
+    min-height: 150px;
+    background-color: blueviolet;
+}*/
